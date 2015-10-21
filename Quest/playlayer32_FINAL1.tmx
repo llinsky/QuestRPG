@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" width="50" height="50" tilewidth="32" tileheight="32">
+ <tileset firstgid="1" name="playlayer11tiles_finalpacked1" tilewidth="32" tileheight="32" spacing="4" margin="3">
+  <image source="playlayer30tiles_finalpacked1.png" width="256" height="256"/>
+ </tileset>
+ <tileset firstgid="50" name="metaPNGTILES2" tilewidth="32" tileheight="32">
+  <image source="metaPNGTILES2.png" width="256" height="256"/>
+  <tile id="0">
+      <properties>
+          <property name="collidable" value="true"/>
+      </properties>
+  </tile>
+  <tile id="39">
+      <properties>
+          <property name="battleID" value="22"/>
+      </properties>
+  </tile>
+  <tile id="49">
+      <properties>
+          <property name="stairs31" value="true"/>
+      </properties>
+  </tile>
+  <tile id="50">
+      <properties>
+          <property name="stairs33" value="true"/>
+      </properties>
+  </tile>
+  <tile id="52">
+      <properties>
+          <property name="item53" value="true"/>
+          <property name="collidable" value="true"/>
+      </properties>
+  </tile>
+  <tile id="53">
+      <properties>
+          <property name="item54" value="true"/>
+          <property name="collidable" value="true"/>
+      </properties>
+  </tile>
+ </tileset>
+ <layer name="bg2" width="50" height="50">
+  <data encoding="base64" compression="zlib">
+   eJzt18sKgCAQQFHB2vRQ+/+frU2bFjqZ5EzdxQHBAi8mpHfOeQAAAADAK5bD2lDo1BEPk8AofC4q6Jgz65POaemopa1D8u1Y2I9zXDr/wUhHaT2179FBBx100EEHHXT8tWNz+f/EZKTjasjMaez4wj2qBTqeKZ3nu1KnDgAArNsBi8orFQ==
+  </data>
+ </layer>
+ <layer name="bg1" width="50" height="50" opacity="0.43">
+  <data encoding="base64" compression="zlib">
+   eJztzzEKwCAMQNGcydt0rrT3v4FLB3EQC5VmeMODQJLhl4goAAAA8NLxuLp5VCe7u5szdHxBh45Zx84/HTp06NChQ4cOHTr+7hidi3fZO1bp0AEA5NEA8uAVEw==
+  </data>
+ </layer>
+ <objectgroup name="oj1" width="50" height="50">
+  <object name="startPoint1" x="816" y="1168"/>
+  <object name="startPoint2" x="816" y="592"/>
+  <object name="item53" x="592" y="592"/>
+  <object name="item54" x="1040" y="592"/>
+ </objectgroup>
+</map>

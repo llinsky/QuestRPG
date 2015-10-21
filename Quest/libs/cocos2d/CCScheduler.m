@@ -122,7 +122,7 @@ typedef struct _hashSelectorEntry
 
 - (NSString*) description
 {
-	return [NSString stringWithFormat:@"<%@ = %08X | target:%@ selector:(%@)>", [self class], self, [target class], NSStringFromSelector(selector)];
+	return [NSString stringWithFormat:@"<%@ = %p | target:%@ selector:(%@)>", [self class], self, [target class], NSStringFromSelector(selector)];
 }
 
 -(void) dealloc
@@ -254,7 +254,7 @@ static CCScheduler *sharedScheduler;
 		for( unsigned int i=0; i< element->timers->num; i++ ) {
 			CCTimer *timer = element->timers->arr[i];
 			if( selector == timer->selector ) {
-				CCLOG(@"CCScheduler#scheduleSelector. Selector already scheduled. Updating interval from: %.2f to %.2f", timer->interval, interval);
+				CCLOG(@"CCScheduler#scheduleSelector. Selector already scheduled. Updating interval from: %.4f to %.4f", timer->interval, interval);
 				timer->interval = interval;
 				return;
 			}

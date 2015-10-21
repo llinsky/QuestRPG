@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" width="40" height="50" tilewidth="32" tileheight="32">
+ <tileset firstgid="1" name="cave_tiles_finalpacked1" tilewidth="32" tileheight="32" spacing="4" margin="3">
+  <image source="Documents/cave_tiles_finalpacked1.png" width="256" height="256"/>
+ </tileset>
+ <tileset firstgid="50" name="metaPNGTILES2" tilewidth="32" tileheight="32">
+  <image source="metaPNGTILES2.png" width="256" height="256"/>
+ </tileset>
+ <layer name="bg2" width="40" height="50">
+  <data encoding="base64" compression="zlib">
+   eJztltkKwjAQRQNFULEusYv9B///+0xgBkZpSaMmM4X7cKD0pYc7S6dxzjUAAAAAAECFe+BmwGPOywemwMOAzycduTE5Ge4DO+JayK8XbkNmhsdKGUbHkZ5byuNgyG+OdsFR1vSk6MeOXvhYcLJUw637xd1oaSdy73tiIErttm9rGXf2qPD9VC0nys3KjJ7Fc+/y/x+16pl6p0XMTM6D/yE/nq0SsyRvBO7B3FuwdO7cf0zurVW7LzjTtY4afdtRlmvurdp+F/e+B1Pf15576358Vy9haa9bzG/rfk8DDgAAAP7DC2iSHOs=
+  </data>
+ </layer>
+ <layer name="bg1" width="40" height="50" opacity="0.46">
+  <data encoding="base64" compression="zlib">
+   eJzt0UEKwCAMRNGcyUO13fT+2y6kIMEqkuqMMIG/6cI+kmRmSSmllFJKQTotD9rh84P29HwjxnIuUt/KHXovi69nbu0b5fu6PdrEdMPdfWz3bA3aVt6SyfR2EO/L3xbtqvla35C+2kTfYnTOcP1pnO2L3mu1r7ZTJp83sflG/8/g6w3SF90vOvli3QQGpZTapQfNeXIO
+  </data>
+ </layer>
+ <objectgroup name="oj1" width="40" height="50">
+  <object name="startPoint1" x="880" y="1296"/>
+  <object name="item40" x="368" y="880"/>
+  <object name="item41" x="368" y="496"/>
+  <object name="item42" x="880" y="560"/>
+ </objectgroup>
+</map>

@@ -764,7 +764,7 @@
 @implementation CCParticleSnow
 -(id) init
 {
-	return [self initWithTotalParticles:700];
+	return [self initWithTotalParticles:400];
 }
 
 -(id) initWithTotalParticles:(NSUInteger)p
@@ -781,8 +781,8 @@
 		self.gravity = ccp(0,-1);
 		
 		// Gravity Mode: speed of particles
-		self.speed = 5;
-		self.speedVar = 1;
+		self.speed = 20;
+		self.speedVar = 5;
 		
 		// Gravity Mode: radial
 		self.radialAccel = 0;
@@ -808,8 +808,8 @@
 		lifeVar = 15;
 		
 		// size, in pixels
-		startSize = 10.0f;
-		startSizeVar = 5.0f;
+		startSize = 8.0f;
+		startSizeVar = 2.0f;
 		endSize = kCCParticleStartSizeEqualToEndSize;
 
 		// emits per second
@@ -833,7 +833,7 @@
 		endColorVar.b = 0.0f;
 		endColorVar.a = 0.0f;
 		
-		self.texture = [[CCTextureCache sharedTextureCache] addImage: @"fire.png"];
+		self.texture = [[CCTextureCache sharedTextureCache] addImage: @"snow.png"];
 		
 		// additive
 		self.blendAdditive = NO;
@@ -846,7 +846,7 @@
 @implementation CCParticleRain
 -(id) init
 {
-	return [self initWithTotalParticles:1000];
+	return [self initWithTotalParticles:200];
 }
 
 -(id) initWithTotalParticles:(NSUInteger)p
@@ -859,7 +859,7 @@
 		self.emitterMode = kCCParticleModeGravity;
 
 		// Gravity Mode: gravity
-		self.gravity = ccp(10,-10);
+		self.gravity = ccp(10,-20);
 		
 		// Gravity Mode: radial
 		self.radialAccel = 0;
@@ -870,8 +870,8 @@
 		self.tangentialAccelVar = 1;
 
 		// Gravity Mode: speed of particles
-		self.speed = 130;
-		self.speedVar = 30;
+		self.speed = 180;
+		self.speedVar = 40;
 		
 		// angle
 		angle = -90;
@@ -886,16 +886,16 @@
 		posVar = ccp( [[CCDirector sharedDirector] winSize].width / 2, 0 );
 		
 		// life of particles
-		life = 4.5f;
+		life = 3.0f;
 		lifeVar = 0;
 		
 		// size, in pixels
-		startSize = 4.0f;
+		startSize = 5.0f;
 		startSizeVar = 2.0f;
 		endSize = kCCParticleStartSizeEqualToEndSize;
 
 		// emits per second
-		emissionRate = 20;
+		emissionRate = 30;
 		
 		// color of particles
 		startColor.r = 0.7f;
@@ -915,7 +915,7 @@
 		endColorVar.b = 0.0f;
 		endColorVar.a = 0.0f;
 		
-		self.texture = [[CCTextureCache sharedTextureCache] addImage: @"fire.png"];
+		self.texture = [[CCTextureCache sharedTextureCache] addImage: @"rain.png"];
 		
 		// additive
 		self.blendAdditive = NO;

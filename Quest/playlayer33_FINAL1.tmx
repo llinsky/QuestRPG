@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" width="50" height="50" tilewidth="32" tileheight="32">
+ <tileset firstgid="1" name="playlayer11tiles_finalpacked1" tilewidth="32" tileheight="32" spacing="4" margin="3">
+  <image source="playlayer30tiles_finalpacked1.png" width="256" height="256"/>
+ </tileset>
+ <tileset firstgid="50" name="metaPNGTILES2" tilewidth="32" tileheight="32">
+  <image source="metaPNGTILES2.png" width="256" height="256"/>
+  <tile id="0">
+      <properties>
+          <property name="collidable" value="true"/>
+      </properties>
+  </tile>
+  <tile id="39">
+      <properties>
+          <property name="battleID" value="22"/>
+      </properties>
+  </tile>
+  <tile id="49">
+      <properties>
+          <property name="stairs32" value="true"/>
+      </properties>
+  </tile>
+  <tile id="50">
+      <properties>
+          <property name="stairs34" value="true"/>
+      </properties>
+  </tile>
+  <tile id="52">
+      <properties>
+          <property name="item55" value="true"/>
+          <property name="collidable" value="true"/>
+      </properties>
+  </tile>
+ </tileset>
+ <layer name="bg2" width="50" height="50">
+  <data encoding="base64" compression="zlib">
+   eJzt1zEOgCAMQFESdBEFvP9lZXYoqERa/cOb0IQvaSLeOecBAAAAAK9Yi62jOKgjFUuDqfG5pLwjGOoID2jraPnm0llp66jNfzTSUdvP3ffooIMOOuiggw46/tqxO/k/MRvpOJuFNY0dX7hHSSzda3sY1VGb56vyoA4AAKw7AFcOKxQ=
+  </data>
+ </layer>
+ <layer name="bg1" width="50" height="50" opacity="0.43">
+  <data encoding="base64" compression="zlib">
+   eJztz7ENgDAUQ8E/U7ahJmL/EehTIKeABOmK6+zitapqAAAAMOkInOFu946UDh1PHW/+dOjQoUOHDh06dOhY3THq4W73jpSObzquH3QAAOvdtv4VBQ==
+  </data>
+ </layer>
+ <objectgroup name="oj1" width="50" height="50">
+  <object name="item55" x="816" y="1264"/>
+  <object name="startPoint2" x="816" y="592"/>
+  <object name="startPoint1" x="816" y="1168"/>
+ </objectgroup>
+</map>

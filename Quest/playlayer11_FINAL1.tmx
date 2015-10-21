@@ -1,0 +1,289 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" width="80" height="80" tilewidth="32" tileheight="32">
+ <tileset firstgid="1" name="playlayer11tiles_FINALpacked2" tilewidth="32" tileheight="32" spacing="4" margin="3">
+  <image source="playlayer11tiles_FINALpacked2.png" width="256" height="512"/>
+  <tile id="25">
+      <properties>
+          <property name="Delay" value="1.0"/>
+          <property name="Next" value="27"/>
+      </properties>
+  </tile>
+  <tile id="26">
+      <properties>
+          <property name="Delay" value="1.0"/>
+          <property name="Next" value="26"/>
+      </properties>
+  </tile>
+  <tile id="27">
+      <properties>
+          <property name="Delay" value="1.0"/>
+          <property name="Next" value="29"/>
+      </properties>
+  </tile>
+  <tile id="28">
+      <properties>
+          <property name="Delay" value="1.0"/>
+          <property name="Next" value="28"/>
+      </properties>
+  </tile>
+  <tile id="29">
+      <properties>
+          <property name="Delay" value="1.0"/>
+          <property name="Next" value="31"/>
+      </properties>
+  </tile>
+  <tile id="30">
+      <properties>
+          <property name="Delay" value="1.0"/>
+          <property name="Next" value="30"/>
+      </properties>
+  </tile>
+  <tile id="31">
+      <properties>
+          <property name="Delay" value="1.0"/>
+          <property name="Next" value="33"/>
+      </properties>
+  </tile>
+  <tile id="32">
+      <properties>
+          <property name="Delay" value="1.0"/>
+          <property name="Next" value="32"/>
+      </properties>
+  </tile>
+  <tile id="33">
+      <properties>
+          <property name="Delay" value="1.0"/>
+          <property name="Next" value="35"/>
+      </properties>
+  </tile>
+  <tile id="34">
+      <properties>
+          <property name="Delay" value="1.0"/>
+          <property name="Next" value="34"/>
+      </properties>
+  </tile>
+  <tile id="35">
+      <properties>
+          <property name="Delay" value="1.0"/>
+          <property name="Next" value="37"/>
+      </properties>
+  </tile>
+  <tile id="36">
+      <properties>
+          <property name="Delay" value="1.0"/>
+          <property name="Next" value="36"/>
+      </properties>
+  </tile>
+  <tile id="37">
+      <properties>
+          <property name="Delay" value="1.0"/>
+          <property name="Next" value="39"/>
+      </properties>
+  </tile>
+  <tile id="38">
+      <properties>
+          <property name="Delay" value="1.0"/>
+          <property name="Next" value="38"/>
+      </properties>
+  </tile>
+  <tile id="39">
+      <properties>
+          <property name="Delay" value="1.0"/>
+          <property name="Next" value="41"/>
+      </properties>
+  </tile>
+  <tile id="40">
+      <properties>
+          <property name="Delay" value="1.0"/>
+          <property name="Next" value="40"/>
+      </properties>
+  </tile>
+  <tile id="41">
+      <properties>
+          <property name="Delay" value="1.0"/>
+          <property name="Next" value="43"/>
+      </properties>
+  </tile>
+  <tile id="42">
+      <properties>
+          <property name="Delay" value="1.0"/>
+          <property name="Next" value="42"/>
+      </properties>
+  </tile>
+  
+  <tile id="82">
+      <properties>
+          <property name="Delay" value="0.5"/>
+          <property name="Next" value="84"/>
+      </properties>
+  </tile>
+  <tile id="83">
+      <properties>
+          <property name="Delay" value="0.25"/>
+          <property name="Next" value="85"/>
+      </properties>
+  </tile>
+  <tile id="84">
+      <properties>
+          <property name="Delay" value="0.125"/>
+          <property name="Next" value="86"/>
+      </properties>
+  </tile>
+  <tile id="85">
+      <properties>
+          <property name="Delay" value="0.125"/>
+          <property name="Next" value="87"/>
+      </properties>
+  </tile>
+  <tile id="86">
+      <properties>
+          <property name="Delay" value="0.125"/>
+          <property name="Next" value="88"/>
+      </properties>
+  </tile>
+  <tile id="87">
+      <properties>
+          <property name="Delay" value="0.25"/>
+          <property name="Next" value="89"/>
+      </properties>
+  </tile>
+  <tile id="88">
+      <properties>
+          <property name="Delay" value="0.5"/>
+          <property name="Next" value="90"/>
+      </properties>
+  </tile>
+  <tile id="89">
+      <properties>
+          <property name="Delay" value="0.25"/>
+          <property name="Next" value="91"/>
+      </properties>
+  </tile>
+  <tile id="90">
+      <properties>
+          <property name="Delay" value="0.125"/>
+          <property name="Next" value="92"/>
+      </properties>
+  </tile>
+  <tile id="91">
+      <properties>
+          <property name="Delay" value="0.125"/>
+          <property name="Next" value="93"/>
+      </properties>
+  </tile>
+  <tile id="92">
+      <properties>
+          <property name="Delay" value="0.125"/>
+          <property name="Next" value="94"/>
+      </properties>
+  </tile>
+  <tile id="93">
+      <properties>
+          <property name="Delay" value="0.25"/>
+          <property name="Next" value="83"/>
+      </properties>
+  </tile>
+ </tileset>
+ <tileset firstgid="99" name="metaPNGTILES2" tilewidth="32" tileheight="32">
+  <image source="metaPNGTILES2.png" width="256" height="256"/>
+  <tile id="0">
+      <properties>
+          <property name="collidable" value="true"/>
+      </properties>
+  </tile>
+  <tile id="4">
+      <properties>
+          <property name="spriteRange" value="true"/>
+      </properties>
+  </tile>
+  <tile id="5">
+      <properties>
+          <property name="collidable" value="true"/>
+          <property name="sprite130IsHere" value="true"/>
+      </properties>
+  </tile>
+  <tile id="26">
+      <properties>
+          <property name="battleID" value="27"/>
+      </properties>
+  </tile>
+  <tile id="27">
+      <properties>
+          <property name="battleID" value="28"/>
+      </properties>
+  </tile>
+  <tile id="49">
+      <properties>
+          <property name="autoBattleID" value="8"/>
+      </properties>
+  </tile>
+  <tile id="50">
+      <properties>
+          <property name="autoBattleID" value="9"/>
+      </properties>
+  </tile>
+  <tile id="51">
+      <properties>
+          <property name="autoBattleID" value="10"/>
+      </properties>
+  </tile>
+  <tile id="52">
+      <properties>
+          <property name="item59" value="true"/>
+          <property name="collidable" value="true"/>
+      </properties>
+  </tile>
+  <tile id="53">
+      <properties>
+          <property name="item60" value="true"/>
+          <property name="collidable" value="true"/>
+      </properties>
+  </tile>
+  <tile id="54">
+      <properties>
+          <property name="item61" value="true"/>
+          <property name="collidable" value="true"/>
+      </properties>
+  </tile>
+  <tile id="55">
+      <properties>
+          <property name="item62" value="true"/>
+          <property name="collidable" value="true"/>
+      </properties>
+  </tile>
+  <tile id="56">
+      <properties>
+          <property name="item63" value="true"/>
+          <property name="collidable" value="true"/>
+      </properties>
+  </tile>
+  <tile id="59">
+      <properties>
+          <property name="exitIsHere" value="true"/>
+      </properties>
+  </tile>
+ </tileset>
+ <layer name="bg2" width="80" height="80">
+  <data encoding="base64" compression="zlib">
+   eJztmulqHDEMxw0lkJ60OZvQhqGEUkLvaZ6k7/8uXcOKKoplS7I9tjf+8Cdk2fFofqvLHl07564b6VlCfwdQK3Ypfq25jM5vFI4t+R1CDPfMrzWbEfjFGLZmMwq/EMPWXEbm15rJ5Df5jaLW3Ca/ya+1Rq29rfnV6J3XnX4H9GvyE+l+p6uAfgzA7wNSDrvcGKYMa7Erye+G2HzXkJ/Xn70dPyuyK8VvceGY+dKQIfhgTd9rza82w2+V2ZWM30+E3WfhdZPfY4ZSdhKOT4Wfr7lQQ+6crAZLOMZsT31vFH609kprMOWvZZjy1xi/1ZXpqS1+hoXZ+bi9dQ9zoaSGLOS7kjiW5EyO34rsy2WoYbe4sJ+Fch4w7JEf7a9zGGp8DnwN/AyLY3Ln4nsSvG6MH2WYw48yzOkRLT5n9VXqi/Q7Gn4hhiFGMd+6z2Sn4ed9DmIylOdD14JvcrGM175l1s3tZWrXYIsfpXpeyhPW4PjRz0v106vrY/8G/iPhxulMyK/kfqSX/s/b/WIDftK1eubH2Rzid7zT0V5vBfxwLaZ1V/t79MJPam+In8Ynz3e62CtUl3vhp71GYuvx/rmPiF4Znht8EfeQmtiVsludrXbU4Jeb+0L8NDX3jYGfNXZTPWOv/GIMX+/0XMEuh5/2WsnzYvtb8AMbTgblV9oHLfy8oAZ9R+JiTRuHo/A7dfFzGckalBPH0uqDvfDzrE6IJOf7UnYhn8O+aX13WYOfzz++Z9HkQdqncGddGo4aDjHf3Jof5ihlyOU5jXIZapmsTtc3WnKYlGFP/CT1RMvOyg/Hc0y57+JCDLXPpPFBS72x8pMI+g3pe5AS/GK+ivPhlXtYa7ws+72a/ErE8ce9LOxi15Q6m+mZ3+L+n9H43ic1B8nd/xD4ad6lh/iBuJ4udv9D4GfJgVJ+EhtG5Acc4P0JPX+W1A1cg/zfS6Mto/HD8bo43XxMaL3c/Td+5tWVm0uV3PvUPd7HpkTjFe/f8HwMZcjZkMsPz+Jr5npTfiy5N7eP5UTjNeRj3IxRaX7w28O94B0M5IEt8pi2/1icLE7pXELMBuv5D+ZmzZ21+NFZNlwXJHNsGi4WflD3W3HDdlAfWly4JtC4jc2xbcHvfWN2XucMAy7vYZ9bmGuBn/QsZ2R+YIskB9J5qxQ/KRsLP/jd3w3ED8e2j2M6Uw5xrWVjrb+QA1sztPCL5cet+OG5Ee37h1b8QrmR5kftHEip93+lZwEs/EL9ilSeoTanQx9XIgZb8sP5DM9Sac6mFgM/yGElamkrfvgc5JJ8rmH4VPnF7o8ZpmJbyw/vwUrEcI/8sH9ihZjeKPmB74FyfbAVP5jV1cxMngWYXmzAD88VU4XmQLfoaSy/G3eNdC0au9IY1tpaej6vNj+JvRw7CcOStvbIDximZhdS4q61zGX3xu/Y+BwgWo+uyP+lz/Ra8eNydQ67Fs/3svL6XLyV5sTp60b3mZqampqampo6dP0DqL8iXA==
+  </data>
+ </layer>
+ <layer name="bg1" width="80" height="80" opacity="0.46">
+  <data encoding="base64" compression="zlib">
+   eJzt2llOwzAUBdDulQ9W0a6CGYm1onxERJGdvHkg90lXKtBa9uE1cZPebigUCoVCoVAoFAoVU08IgiBFsq2v3c/Zc+uQo8qeW5d0tVvqo8h8O9rtK3s+LwXm0dVvyaPAHLiGr0XsOvotuReYA/yu53cfJHtOXfxGXlzD94v4jfps5sTx8+jXqn7Zz+3mJz2uUXvU63j5KGJ4nzyWjkH5vaVhBT9tn2T4Vek/i3Vm+WW7wc/Pj/O+hp9u7bN9YzW/Tyc7y7VHfLaTnjs8etZ6vdzxIh08ztkV/Lhr0hh4+FkaSsbiGlbyk67ZeqzHJBbeXfyse/nIsrtfxn6F0ptZfpLrL15WEs9Mv71jBz+JScQ1B6phNb8zl8jrNUefSSrdQ9r7aP4enWqOs/2P9nwT4Zg9h5Fl9hwi/Nb63jyGH99vW1f0kxrC789Q4/cGP9XexspttYv0o+71uPdDOIZav8y9ivTaAfX/4ulXYa+nvfZiMbbEr8r+WLP/ODOM8stwO1sj9biX7ZdpR+mhmSnVjzJ2Zz9On4yeb3EM1PhVMOzoV8lQ4mdxfLT063oOprh6+Y08O/tJxlrq2ciwgp/2Gr3Eb63OfrO9iebcQsnae539jtbueV/4eeenNazotzWkvLev6Cc53lnc1xwVxYibrL6T9qrUjmIo+a5gxHcOLP3OxqOUlZ/0NVl+W8NROGX1fqzmJ90bWvSfJFl+FucIqqfn+qK+c+XtlOX33/NTYA4IgiAIgtTIL+Mmc+0=
+  </data>
+ </layer>
+ <objectgroup name="oj1" width="80" height="80">
+  <object name="startPoint1" x="1360" y="2320"/>
+  <object name="guard" x="1360" y="1968"/>
+  <object name="sprite130Start" x="1328" y="2032"/>
+  <object name="boss9" x="656" y="624"/>
+  <object name="item60" x="656" y="528"/>
+  <object name="item59" x="1104" y="752"/>
+  <object name="item61" x="2192" y="1040"/>
+  <object name="item62" x="1776" y="432"/>
+  <object name="boss8" x="1776" y="560"/>
+  <object name="item63" x="1360" y="1488"/>
+  <object name="vodek" x="1360" y="1584"/>
+ </objectgroup>
+</map>

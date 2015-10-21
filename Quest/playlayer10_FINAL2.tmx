@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" width="80" height="80" tilewidth="32" tileheight="32">
+ <tileset firstgid="1" name="metaPNGTILES2" tilewidth="32" tileheight="32">
+  <image source="metaPNGTILES2.png" width="256" height="256"/>
+ </tileset>
+ <tileset firstgid="65" name="cave_tiles_finalpacked1" tilewidth="32" tileheight="32" spacing="4" margin="3">
+  <image source="Documents/cave_tiles_finalpacked1.png" width="256" height="256"/>
+  <tile id="25">
+   <properties>
+    <property name="Delay" value=".1"/>
+    <property name="Next" value="27"/>
+   </properties>
+  </tile>
+ </tileset>
+ <layer name="bg2" width="80" height="80">
+  <data encoding="base64" compression="zlib">
+   eJztmttKxDAQhvtui6DiAbt1PaAiIiKL739tAx0YwrRNM0k7Sf+L70rbbb5OJpNpDk3THAAAAAAAAAAAAAAAAAAAAAbuDDxDyVwbeIaSgb/t/R172p4HA+MpzZ9z98LYm0etv0fPn+PZwLhCuey5YFwtvO4mwTP4Dp8MeIkd/63n06dN6E1yWErsxc67nOstOSwhB1r0Rw5Pg0fLDq364x6tOnS5LzZ/zeXHJWtQqQ5zx1DK+3cGHZbij9fWLifS+r+1y9z+3BzXzmHujteDFuZ0ivGF/IYmF9K8lWpp97et68S11lF/vQnxSbE35qgb8Vqjv5jfpdiT/B0nvK5JSB2Suh4J9cdr6NZjKi5/er4MuJVcp3K4JO65x7H+jHP2PfDa82nAl3bcqe/D+zPcFzlzvA18GHAloYlB3iOL3fdQTvxlzgirzlLEjuY6yd+5571Ad1v6o3qG1yznwty5OUh7qKVrstafhXp5zs1cDePnrSVOOnYfvx7x8d+LFHvWiImPJdfw/6WaRIJ/g+P1nmV3a/ubQnJr3V2sP6meGcsDqb81WSM2v/t7wNo9hXjI3deqHZwHgj/4K5dYf/dNvp5hSXB/sWeLNO+hVMgV3+Nq9mx78xcyXvjTjVf6ZjI2p/fkT3MeZszTXvxp3O3ZH5151/YlpTndKt+JdfjZkhx93dpjz/WD6VtzjrM4e/BH318oDjXnDvw6u+a5S/7oTN1Ujzc0jmqPN8lfSF8c/nTjDe2rwp/uGvibZ+q8W+3rRQp/AP5S8WfgGQAAAAAAANiKf4WanuQ=
+  </data>
+ </layer>
+ <layer name="bg1" width="80" height="80" opacity="0.49">
+  <data encoding="base64" compression="zlib">
+   eJztmNtugzAMQNO/4XEv2/qw//+uaRpoFSojwY4v9UE6qlThxD7kBrfW2g0AAAAAAAAAAAAAAGDlI0AOmVkC5JAZ/Pn7+2y/1z1APdn8LSvbtSi0mQktf3u865LkPxrnlUMUbz3jYXaNj/PY201vvpZxPfxcb+tv9DEY0d/W/uYvssOo/h77iepQkpfl2hjVocUc1H7WkRxm8We190f0p32ufva/pz8rhxrrrEf+PflZPqsRn2f3VvJ3pd/oY+9oXFis16P+Iu4fV11b+evx6O1kZt3a7WT2tq9BEqvRhrcHqUPLOPzp+Hul+XulFi1/3g5G3Jz50tpHe/rJ4G9mzNH7q8f5M7u/s/uyuZP4+2+uZXNg7e/Il3ctXv6qO9B06Z1DZvCHv4z+3hvr6N6f5ztbNma8s3nXZO1P0wn+nt/TO6cr+ZN+F67sT7pXVvWndc6o+M1gdp2v7G5f3wyHFf1J5mCluTtS74g/75o8/Gl5qehvxPOZb/zJYvDXF1PxrKflD/5oAXLIDP5kfAXIAQAAAACu8w3fr1GF
+  </data>
+ </layer>
+ <objectgroup name="oj1" width="80" height="80">
+  <object name="startPoint1" x="400" y="2288"/>
+  <object name="item36" x="1072" y="1712"/>
+  <object name="item37" x="1008" y="624"/>
+  <object name="item38" x="1552" y="720"/>
+  <object name="item39" x="1616" y="720"/>
+  <object name="boss7" x="1648" y="880"/>
+ </objectgroup>
+</map>

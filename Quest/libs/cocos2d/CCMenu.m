@@ -217,6 +217,11 @@ enum {
 		[selectedItem_ unselected];
 		selectedItem_ = currentItem;
 		[selectedItem_ selected];
+	} else {
+		if ([selectedItem_ respondsToSelector: @selector(dragToPoint:)]) {
+			CGPoint touchLocation = [selectedItem_ convertTouchToNodeSpace: touch];
+			[selectedItem_ dragToPoint: touchLocation];
+		}
 	}
 }
 

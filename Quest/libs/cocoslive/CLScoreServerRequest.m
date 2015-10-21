@@ -78,8 +78,11 @@
 	
 	NSString *device = @"";
 	if( flags & kQueryFlagByDevice )
-		device = [[UIDevice currentDevice] uniqueIdentifier];
-	
+    {
+        CFUUIDRef ref = CFUUIDCreate (NULL);
+        device = (NSString *) CFUUIDCreateString (NULL, ref);
+		//device = [[UIDevice currentDevice] uniqueIdentifier];
+	}
 	// arguments:
 	//  query: type of query
 	//  limit: how many scores are being requested. Default is 25. Maximun is 100
